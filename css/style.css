@@ -23,6 +23,10 @@ main {
     flex: 1 0 auto;
 }
 
+.brand {
+    max-width: 120px;
+}
+
 footer {
     padding: 30px 0;
     text-align: center;
