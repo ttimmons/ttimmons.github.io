@@ -29,6 +29,10 @@ footer {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+}
+
 /* Components */
 .page-section  {
     margin-bottom: 30px;
@@ -40,12 +44,29 @@ footer {
 
 .brand {
     max-width: 120px;
+    margin-bottom: 16px;
 }
-
-
 
 .project {
     color: #333333;
 }
 
+.contact-info {
+    text-align: center;
+}
 
+
+.contact-item,
+.contact-item:hover {
+    color: #333333;
+    text-decoration: none;
+}
+
+.contact-item {
+    padding: 0 8px;
+    border-right: 1px solid #333333;
+}
+
+.contact-item:last-child {
+    border-right: 0;
+}
