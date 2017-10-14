@@ -1,3 +1,4 @@
+/* Elements */
 html {
  	/* This percentage is used so rem sizings match pixel sizings. */
     font-size: 62.5%;
@@ -23,44 +24,28 @@ main {
     flex: 1 0 auto;
 }
 
-.brand {
-    max-width: 120px;
-}
-
 footer {
     padding: 30px 0;
     text-align: center;
+}
+
+/* Components */
+.page-section  {
+    margin-bottom: 30px;
 }
 
 .container {
     max-width: 600px;
 }
 
-.projects {
-
+.brand {
+    max-width: 120px;
 }
+
+
 
 .project {
-    display: block;
     color: #333333;
-    text-align: center;
 }
 
-.project:hover {
-    color: #333333;
-    text-decoration: none;
-}
 
-.project-img-wrapper {
-    max-width: 300px;
-    width: 100%;
-    margin: 10px auto;
-}
-
-.project-img {
-    max-width: 100%;
-}
-
-.project-description {
-    text-align: left;
-}
