@@ -30,6 +30,7 @@ footer {
 }
 
 h2 {
+    margin-bottom: 2rem;
     text-align: center;
 }
 
@@ -69,4 +70,21 @@ h2 {
 
 .contact-item:last-child {
     border-right: 0;
+}
+
+/* Card styles */
+.card-title {
+    height: 4rem;
+    line-height: 1.15;
+    margin-bottom: 1.5rem;
+
+    /* Center text vertically */
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.project-card-body {
+    min-height: 210px;
 }
