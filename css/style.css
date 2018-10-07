@@ -1,6 +1,6 @@
 /* Elements */
 html {
- 	/* This percentage is used so rem sizings match pixel sizings. */
+     /* This percentage is used so rem sizings match pixel sizings. */
     font-size: 62.5%;
 }
 
@@ -10,8 +10,8 @@ html, body {
 }
 
 body {
-    font-size: 14px;
-    font-size: 1.4rem;
+    font-size: 16px;
+    font-size: 1.6rem;
     display: flex;
     flex-direction: column;
 }
@@ -31,18 +31,33 @@ footer {
 }
 
 h1 {
+    font-size: 40px;
     font-size: 4rem;
 }
 
 h2 {
-    margin-bottom: 2rem;
+    font-size: 30px;
+    font-size: 3.0rem;
+    margin-bottom: 20px;
+    margin-bottom: 2.0rem;
+}
+
+h3 {
+    font-size: 20px;
+    font-size: 2.0rem;
 }
 
 p {
+    margin: 12.5px 0;
     margin: 1.25rem 0;
 }
 
 /* Components */
+.btn {
+    font-size: 1.6rem;
+    font-size: 16px;
+}
+
 .page-section  {
     margin-bottom: 40px;
 }
@@ -58,17 +73,21 @@ p {
 
 .project {
     color: #333333;
+    margin-bottom: 16px;
+    margin-bottom: 1.6rem;
 }
 
 .contact-info {
     text-align: center;
+    float: right;
 }
 
 .copyright {
     margin: 0;
+    float: left;
 }
 
-
+/* Contact */
 .contact-item,
 .contact-item:hover {
     color: #333333;
@@ -77,10 +96,12 @@ p {
 
 .contact-item {
     padding: 0 8px;
+    padding: 0 0.8rem;
     border-right: 1px solid #333333;
 }
 
 .contact-icon {
+    margin-right: 5px;
     margin-right: 0.5rem;
 }
 
@@ -90,9 +111,12 @@ p {
 
 /* Card styles */
 .card-title {
+    height: 40px;
     height: 4rem;
     line-height: 1.15;
-    margin-bottom: 1.5rem;
+    margin-bottom: 16px;
+    margin-bottom: 1.6rem;
+    font-weight: bold;
 
     /* Center text vertically */
     display: -ms-flexbox;
@@ -101,6 +125,25 @@ p {
     align-items: center;
 }
 
+.card-img-top {
+    border-bottom: 1px solid #ddd;
+    height: 250px;
+    margin-bottom: 8px;
+    margin-bottom: 0.8rem;
+}
+
 .project-card-body {
     min-height: 210px;
+}
+
+@media (max-width: 576px) {
+    .contact-info,
+    .copyright {
+        float: none;
+        text-align: center;
+    }
+    .contact-info {
+        margin-bottom: 24px;
+        margin-bottom: 2.4rem;
+    }
 }
